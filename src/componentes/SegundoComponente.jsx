@@ -6,4 +6,6 @@ const CompA = props =>
 const CompB = props =>
     <span>Segundo: {props.valor}</span>    
 
-export {CompA, CompB}
+export {CompB}
+
+export default CompA
